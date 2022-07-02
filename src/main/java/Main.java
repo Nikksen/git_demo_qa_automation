@@ -5,6 +5,9 @@ public class Main {
         int resultDivision  = division(20,2);
         System.out.println(resultDivision);
         System.out.println(result);
+
+        SomeTestClass someTestClass = new SomeTestClass();
+        someTestClass.doSmth();
     }
 
     static int sum(int a, int b){
