@@ -7,6 +7,7 @@ public class Main {
         System.out.println(result);
         print();
         foo();
+        boo();
     }
 
     static int sum(int a, int b){
@@ -23,6 +24,10 @@ public class Main {
 
     static void foo(){
         System.out.println("Our function foo");
+    }
+
+    static void boo(){
+        System.out.println("Our function boo");
     }
 
 
