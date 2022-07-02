@@ -6,6 +6,7 @@ public class Main {
         System.out.println(resultDivision);
         System.out.println(result);
         print();
+        foo();
     }
 
     static int sum(int a, int b){
@@ -18,6 +19,10 @@ public class Main {
 
     static void print(){
         System.out.println("Some functions here");
+    }
+
+    static void foo(){
+        System.out.println("Our function foo");
     }
 
 
